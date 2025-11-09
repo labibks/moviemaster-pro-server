@@ -23,7 +23,7 @@ const client = new MongoClient(uri, {
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("🚀 Movie Master Pro Server is Running");
+  res.send(" Movie Master Pro Server is Running");
 });
 
 async function run() {
