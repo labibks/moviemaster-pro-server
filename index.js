@@ -100,7 +100,6 @@ async function run() {
       }
     });
 
-    // PUT update entire movie
     app.put("/movies/:id", async (req, res) => {
       try {
         const id = req.params.id;
