@@ -31,7 +31,7 @@ async function run() {
     await client.connect();
     const db = client.db("movie_db");
     const moviesCollection = db.collection("movies");
-    console.log("✅ MongoDB Connected Successfully");
+    console.log("MongoDB Connected Successfully");
 
     // GET all movies with optional filtering
     app.get("/movies", async (req, res) => {
