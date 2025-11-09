@@ -131,7 +131,6 @@ async function run() {
 
 run().catch(console.dir);
 
-// Server start
 app.listen(port, () => {
   console.log(`🚀 Movie Master Pro Server is Running on Port ${port}`);
 });
