@@ -114,7 +114,6 @@ async function run() {
       }
     });
 
-    // DELETE movie
     app.delete("/movies/:id", async (req, res) => {
       try {
         const id = req.params.id;
