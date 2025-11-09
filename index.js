@@ -126,7 +126,6 @@ async function run() {
       }
     });
   } finally {
-    // Do not close the client, keep it running
   }
 }
 
