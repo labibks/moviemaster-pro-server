@@ -28,7 +28,6 @@ app.get("/", (req, res) => {
 
 async function run() {
   try {
-    await client.connect();
     const db = client.db("movie_db");
     const moviesCollection = db.collection("movies");
     console.log("MongoDB Connected Successfully");
